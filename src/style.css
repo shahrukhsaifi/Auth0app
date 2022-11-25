@@ -1,33 +1,16 @@
 body {
 	font-family: sans-serif;
 	text-align: center;
-	display: flex;
+	/* display: flex; */
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 	min-height: 100vh;
 }
-
-.QuizAppParent {
-	padding: 20px;
-    background: #e5e5e5;
-}
-ul{
-	background: #545454;
-    padding: 10px;
-    list-style: none;
-}
-li{
-    cursor: pointer;
-	background: white;
-    padding: 10px;
-    text-align: left;
-    margin: 10px;
-    border: 1px solid black;
-}
 button{background: #000056;
     color: white;
     padding: 10px 20px;
     text-transform: uppercase;
-    border-radius: 5px;}
+    border-radius: 5px;
+	cursor: pointer;}
